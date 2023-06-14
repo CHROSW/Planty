@@ -1,4 +1,4 @@
-function decreaseValue(iclass, ipos, limit) {
+/*function decreaseValue(iclass, ipos, limit) {
     var input = document.getElementsByClassName("rnInputPrice")[ipos];
     var value=parseInt(input.value, 10);
     value = isNaN(value) ? 0 : value;
@@ -7,14 +7,14 @@ function decreaseValue(iclass, ipos, limit) {
     value--;
     document.getElementsByClassName("rnInputPrice")[ipos].value = value;
     input.setAttribute("value", value);
-}
+}*/
 
 
 /**
  * Increase Value Function
  */
 
-function increaseValue(iclass, ipos, limit) {
+/*function increaseValue(iclass, ipos, limit) {
     var input = document.getElementsByClassName("rnInputPrice")[ipos];
     var value = parseInt(input.value, 10);
     value = isNaN(value) ? 0 : value;
@@ -22,4 +22,4 @@ function increaseValue(iclass, ipos, limit) {
     value++;
     document.getElementsByClassName("rnInputPrice")[ipos].value = value;
     input.setAttribute("value", value);
-}
+}*/
