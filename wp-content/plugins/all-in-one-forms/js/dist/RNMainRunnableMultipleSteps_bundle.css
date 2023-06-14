@@ -1,0 +1,29 @@
+.rnStep {
+    margin: 0 10px;
+}
+.rnStepLabels{
+    transition: color 200ms ease-in-out;
+}
+.rnStepLabels.rnActive{
+    color: blue;
+}
+
+
+.msProgressBar{
+    background-color: #ddd;
+    height: 18px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.msProgressCompleted{
+    background-color: #72b239;
+    height: 100%;
+    transition: width 200ms ease-in-out;
+}
+
+.ProgressLabel{
+    margin-bottom: 10px;
+    font-size: 20px;
+    display: inline-block;
+}

@@ -1,0 +1,677 @@
+/*
+Theme Name: Planty
+Author: Planty
+Description: Thème Planty conçu avec UltraPress
+Version: 1.0
+Template: ultrapress
+
+This is the child theme for UltraPress theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400&display=swap');
+
+h1, h2 ,h3 ,h4 ,h5 ,h6 , p, a, .wp-block-heading.has-text-align-center.has-text-color, body, button, input, select, optgroup, textarea{
+    font-family: 'Syne', sans-serif;
+}
+
+/* all page */
+
+
+.link-added{
+    padding-left:40px;
+}
+
+div.ultrapress-default-header{
+    padding: 0px 0px 0px 30px;
+} 
+
+.ultrapress-default-header .navbar.navbar-expand-lg{
+    flex-wrap: nowrap;
+}
+
+.ultrapress-main-menu{
+    display:flex;
+    justify-content: end;
+}
+
+#menu-item-369 a, #extend-menu-item{
+    font-family: "Syne", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+#menu-item-369 a:before,#menu-item-369  a:link, #extend-menu-item:before{
+    border:none;
+    background-color: transparent;
+    transition: none;
+}
+
+/* header button order page */
+.btn.btn-primary{
+    width:236px;
+    height:80px;
+}
+
+.menu-btn-wrap a{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 51px;
+    padding-top: 30px;
+}
+
+.menu-btn-wrap a:hover{
+    background-color: #C02E44;
+}
+
+.site-main.no-sidebar{
+margin-top:0px;
+margin-bottom: 0px;
+}
+
+.wp-block-heading.has-text-align-center{
+    padding-bottom:0px;
+}
+
+.btn.btn-primary{
+    background-color: #DC9F96;
+}
+
+.space-color{
+    background-color: #ECE2DA;
+}
+
+h1.has-background, h2.has-background, h3.has-background, h4.has-background, h5.has-background, h6.has-background{
+    padding:0;
+}
+
+.wp-block-heading{
+    margin-bottom: 0px;  
+    padding-bottom: 15px;
+}
+  
+.wp-block-heading + p, .wp-block-columns{
+      margin-bottom: 0em;  
+}
+
+
+figure.aligncenter.size-full{
+    margin-top:52px;
+    margin-bottom: 20px;
+}
+
+h3.wp-block-heading.has-text-align-center{
+    margin-bottom: 11px;
+}
+
+/* gallery */
+.wp-block-cover__background.has-background-dim{
+    opacity:0;
+}
+
+.wp-block-cover__inner-container p{
+    margin-bottom: 0px; 
+    width:393px;
+    position:relative;
+    right:20px;
+    line-height: 57.6px;
+}
+/* footer */
+.site-footer .right-resurved p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* home page */
+
+.wp-block-heading.has-text-align-center.has-text-color, .has-text-align-center.has-background{
+    padding:0;
+}
+
+.bottleSheet{
+    width:100%;
+    height: 848px;
+}
+
+.wp-block-columns.bottleSheet{
+    border-bottom: 15px solid #E3D9D0;
+    border-bottom-right-radius: 25% 5%;
+    border-bottom-left-radius: 25% 5%;
+}
+
+.wp-block-buttons{
+    background-color: #ECE2DA;
+    padding-top: 20px;
+    padding-bottom: 29px;
+    border-bottom: 1px solid  #ECE2DA;
+    border-bottom-right-radius: 30% 10%;
+    border-bottom-left-radius:  30% 10%;
+}
+
+a.wp-block-button__link.has-background.has-text-align-center.wp-element-button{
+    font-size: 15px;
+    padding: 9px 57px 9px 57px;
+}
+
+.wp-block-gallery.wp-block-image img{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.wp-block-image.bottle{
+    position:absolute;
+    width:26%;
+    left:37%;
+    right:37%;
+    z-index: 100;
+}
+
+.wp-block-image.leftSheet{
+    position:absolute;
+    z-index: 10;
+    width:30%;
+    right:48%;
+    left:23%;
+}
+
+.wp-block-image.rightSheet{
+    position:absolute;
+    z-index: 10;
+    width:29%;
+    left:47%;
+    right:24%;
+}
+
+.wp-block-image.bottle{
+    top:330px;
+    
+}
+
+.wp-block-image.bottle img{
+min-height:618px;
+}
+
+.wp-block-image.leftSheet img, .wp-block-image.rightSheet img{
+min-height:401px;
+}
+
+.wp-block-image.leftSheet, .wp-block-image.rightSheet{
+    top:455px;
+}
+
+.wp-block-columns.is-layout-flex.wp-container-22{
+    padding-left: 10.66%;
+    padding-right: 10.66%;
+}
+
+/* button to order page */
+.home-order a{
+    background-color: #E0B9B4;
+    color:white;
+}
+
+.home-order a:hover{
+    background-color: #C02E44;
+    color:white;
+}
+
+/* contact page */
+
+.wp-block-columns.banner-contact{
+    border-bottom: 50px solid #ece2da;
+    border-bottom-right-radius: 25% 12%;
+    border-bottom-left-radius: 25% 12%;
+    padding-top:186px;
+}
+
+.banner-contact .wp-block-heading.has-text-align-center.has-text-color{
+    padding-bottom:27px;
+}
+
+.banner-contact .flower{
+    position: relative;
+    bottom:150px;
+}
+
+.banner-contact + h2.wp-block-heading.has-text-align-center{
+    padding-top:89px;
+}
+
+.block-team{
+    height:379px;
+}
+
+
+.wp-block-columns.block-team.is-layout-flex.wp-container-12 + h2{
+    padding-top:66px;
+    padding-bottom:20px;
+}
+
+.wpcf7-form.init{
+min-width:100%;
+}
+
+textarea.rnInputPrice{
+    height: 237px;
+}
+
+.sheet-angle{
+    position:relative;
+    z-index:0;
+    left:107px;
+    bottom:45px;
+}
+
+.wp-block-columns.is-not-stacked-on-mobile.has-background.is-layout-flex.wp-container-18{
+    padding-bottom:73px;
+}
+
+/* button submit */
+#post-227 .rnField.rnField_2.rnsubmit_button button{
+    font-family: "Syne", sans-serif;
+    color: white;
+    width:198px;
+    height: 55px;
+    padding-left: 45px;
+    
+}
+
+/* order page */
+
+h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-color.has-background{
+    padding-top:69px;
+    padding-bottom: 49px;
+}
+
+
+.rnField.rnField_18.rndivider{
+    height:80px;
+}
+
+.description{
+   padding-top:40px;  
+   margin-bottom:0px; 
+}
+
+.ladda-label{
+    color:white;
+}
+
+.rnField.rnField_1.rnimage .rnFieldAndLabel .rednaoLabel{
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    position:relative;
+    z-index: 10000;
+    left: 44.01px;
+    top: 89.97px;
+    width:100px;
+}
+
+.rnField.rnField_3.rnimage .rnFieldAndLabel .rednaoLabel{
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    position:relative;
+    z-index: 10000;
+    left: 44.01px;
+    top: 99.97px;
+    width:110px;
+}
+
+.rnField.rnField_4.rnimage .rnFieldAndLabel .rednaoLabel{
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    position:relative;
+    z-index: 10000;
+    left: 54.01px;
+    top: 99.97px;
+    width:80px;
+}
+
+.rnField.rnField_5.rnimage .rnFieldAndLabel .rednaoLabel{
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    position:relative;
+    z-index: 10000;
+    left: 44.01px;
+    top: 89.97px;
+    width:100px;
+}
+
+.rnField.rnField_1.rnimage,  .rnField.rnField_5.rnimage{
+    position: relative;
+    top:12px;
+}  
+
+.q-field-wrapper input{
+    border-bottom-right-radius: none;
+    border-top-right-radius: none;
+}
+
+.rnBottom.rnField.rnField_27.rnhtml{
+    position: relative;
+    right:52px;
+    top:14px;
+}
+
+.rnField.rnField_7.rnactionbutton{
+    position:relative;
+    right:65px;
+} 
+
+.rnField.rnField_32.rnnumeric{
+    position: relative;
+    left:25px;
+} 
+
+.rnBottom.rnField.rnField_28.rnhtml{
+    position:relative;
+    right:2px;
+    top:14px;
+}
+
+.rnField.rnField_15.rnactionbutton{
+    position: relative;
+    right:15px;
+}
+
+
+.rnField.rnField_35.rnnumeric{
+    position: relative;
+    left:76px;
+}
+
+.rnBottom.rnField.rnField_29.rnhtml{
+    position: relative;
+    left:33px;
+    top:14px;
+} 
+
+.rnField.rnField_9.rnactionbutton{
+    position: relative;
+    left:22px;
+} 
+
+.rnField.rnField_33.rnnumeric{
+    position: relative;
+    left:103px;
+} 
+
+.rnBottom.rnField.rnField_30.rnhtml{
+    position: relative;
+    left:33px;
+    top:14px;
+}
+
+.rnField.rnField_16.rnactionbutton{
+    position: relative;
+    left:23px;
+} 
+
+span.qf-decrease-btn{
+    position: relative;
+    top:14px;
+    height:28px;
+}
+
+span.qf-increase-btn{
+    position:relative;
+    bottom:14px;
+    right:30px;
+    height:28px;
+    border-bottom:1px solid white;
+}
+
+button.rnbtn.rnbtn-default.ladda-button{
+    background-color:#E0B9B4;
+    border:none;
+    width:100px;
+    margin-left: 11px;
+    padding-left: 35px;
+    height:56px;
+}
+
+button.rnbtn.rnbtn-default.ladda-button:hover{
+    background-color:#C02E44;
+}
+
+.ladda-label{
+    text-align: center;
+}
+
+/* divider */
+.rnField.rnField_17.rndivider{
+    margin-bottom: 55px;
+} 
+
+/* vertical line */
+rn-address-field{
+    border: 2px solid white;
+    border-top:none;
+    border-right: none;
+    border-bottom:none;
+    margin-left:52px;
+    padding-left:34px;
+    height: 447px;
+}
+
+/* Last Name */
+.rncolsm2 + div span{
+    position: relative;
+    bottom:55px;
+    right:190px;
+    color:white;
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-weight:400;
+}
+
+.rncolsm2 + div input{
+    position: relative;
+    top: 57px;
+    right:190px;
+}
+
+/* First Name */
+.rncolsm2 div + span{
+    position: relative;
+    top:83px;
+    color:white;
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-weight:400;
+}
+
+.rncolsm2 div input{
+    position: relative;
+    top:196px;
+}
+
+/* e-mail */
+.rnField.rnField_22.rnemail{
+    position: relative;
+    bottom: 118px;
+}
+
+.rnField.rnField_22.rnemail div div label{
+    font-family: "Syne", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* address */
+.rnField.rnField_20.rnaddress .rnFieldAndLabel .rnFieldContainer div div span{
+    position: relative;
+    bottom:72px;
+    color: white;
+    font-family: "Syne", sans-serif;
+    font-size:20px;
+    font-weight: 400;
+} 
+
+.rnField.rnField_20.rnaddress .rnFieldAndLabel .rnFieldContainer div div input{
+    position:relative;
+    top:55px;
+    margin-bottom:18px;
+}
+
+
+/* button submit */
+#post-186 .rnField.rnField_2.rnsubmit_button button{
+    font-family: "Syne", sans-serif;
+    color: white;
+    width:198px;
+    height: 55px;
+    position: relative;
+    bottom:76px;
+    
+}
+
+.ladda-label svg{
+    color: transparent;
+}
+
+/* loop_end_action */
+.cans-line{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:100%;
+    height: 131px;
+}
+
+.cans-line img{
+    width:6.25%;
+}
+
+#can2, #can4, #can6, #can9, #can11, #can13, #can15, #can17{
+    padding-top:1.5%;
+}
+
+/*#can3, #can7, #can1, #can14{
+   
+}*/
+
+#can5, #can8, #can12, #can16{
+    padding-top:3%;
+}
+/* with elementor  contact page*/
+.wp-block-columns.is-not-stacked-on-mobile.has-background.is-layout-flex.wp-container-18 + div.cans-line{
+    background-color: #ece2da;
+}
+
+/* with gutenberg contact page*/
+.post-227.page.type-page.status-publish.hentry + div.cans-line{
+    background-color: #ece2da;
+}
+
+/* with elementor order page*/
+.wp-block-columns.has-background.is-layout-flex.wp-container-4 + div.cans-line{
+    display:none;
+}
+/* with gutenberg order page*/
+.post-186.page.type-page.status-publish.hentry + div.cans-line{
+    display:none;
+} 
+
+/*background color: #ECE2DA */
+/*green title color : #3B8E46*/
+/*button color : #E0B9B4*/
+/* red button color: #C02E44 */
+/* order button color : #DC9F96*/
+
+
+
+
+/* button plus and minus */
+
+/* Chrome, Safari, Edge, Opera */
+.q-field-wrapper input::-webkit-outer-spin-button,
+.q-field-wrapper input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.q-field-wrapper {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.qf-decrease-btn:hover,
+.qf-increase-btn:hover {
+    cursor: pointer;
+}
+
+.qf-decrease-btn,
+.qf-increase-btn {
+    background: #DC9F96;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qf-decrease-btn svg,
+.qf-increase-btn svg {
+    fill: #fff;
+    width: 14px;
+}
+
+div.rnField.rnField_31.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div input.rnInputPrice,
+div.rnField.rnField_32.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div input.rnInputPrice,
+div.rnField.rnField_33.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div input.rnInputPrice,
+div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div input.rnInputPrice{
+    width: 51px !important;
+    height:56px;
+    margin: 0 0 0 0;
+    text-align: center;
+    order:1;
+    -webkit-appearance: textfield;
+    --moz-appearance:textfield;
+    appearance: textfield;
+}
+
+div.rnField.rnField_31.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div input.rnInputPrice,
+div.rnField.rnField_32.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div input.rnInputPrice,
+div.rnField.rnField_33.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div input.rnInputPrice,
+div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div input.rnInputPrice{
+    border-bottom-right-radius:0px;
+    border-top-right-radius: 0px;  
+}
+
+.qf-decrease-btn{
+    order:2;
+    border-bottom-right-radius: 5px;
+}
+
+.qf-increase-btn{
+    order:3;
+    border-top-right-radius: 5px;
+}
+
+.qf-decrease-btn:hover, .qf-increase-btn:hover{
+    background-color:#C02E44;
+}
+
+/* footer */
+.site-footer .right-resurved a.footer-link:hover, .site-footer .right-resurved a.footer-link{
+    color:black;
+}
+
+@media(max-width:1399px){
+    #ultrapress-main-menu{
+        width:1020px;
+    }
+}

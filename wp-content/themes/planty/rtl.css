@@ -1,0 +1,9 @@
+/*
+Theme Name:     Planty
+Template:       ultrapress
+
+This is the child theme for UltraPress theme, generated with Generate Child Theme plugin by catchthemes.
+
+Right to Left text support.
+*/
+@import url("../ultrapress/rtl.css");

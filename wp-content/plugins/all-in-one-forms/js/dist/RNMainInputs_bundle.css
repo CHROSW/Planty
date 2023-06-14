@@ -1,0 +1,11 @@
+rn-inputs-select .ts-input{
+    padding-left: 13px !important;
+}
+
+.ts-dropdown-content .spinner{
+    visibility: visible;
+    margin:0;
+    background: none;
+    width: 100%;
+    height: 50px;
+}
