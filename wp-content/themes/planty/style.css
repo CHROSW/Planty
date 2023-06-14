@@ -17,7 +17,7 @@ This is the child theme for UltraPress theme, generated with Generate Child Them
 
 h1, h2 ,h3 ,h4 ,h5 ,h6 , p, a, .wp-block-heading.has-text-align-center.has-text-color,
  body, button, input, select, optgroup, textarea, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
-  a h1, a h2, a h3, a h4, a h5, a h6, label, span{
+  a h1, a h2, a h3, a h4, a h5, a h6, label, span, .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css, #fluentform_4_success, #fluentform_4_errors{
     font-family: 'Syne', sans-serif;
 }
 
@@ -253,12 +253,22 @@ min-height:401px;
     padding-top:66px;
     padding-bottom:20px;
 }
-
-.wpcf7-form.init{
-min-width:100%;
+/* contact form */
+#ff_3_names_last_name_{
+    height:71px;
 }
 
-textarea.rnInputPrice{
+.ff-el-group{
+    padding-bottom:7px;
+}
+
+#ff_3_email{
+    height:71px;
+}
+
+textarea#ff_3_description{
+    position: relative;
+    z-index:100;
     height: 237px;
 }
 
