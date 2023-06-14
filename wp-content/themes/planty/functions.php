@@ -11,10 +11,10 @@ function planty_enqueue_styles() {
         get_stylesheet_directory_uri() . '/style.css',
         array('parent-style')
     );
-    wp_register_script('buttonplusminusjs', get_stylesheet_directory_uri() . '/js/buttonincreasedecrease.js', array(), '1.0.0', false);
-    wp_register_script('buttonplusminus2js', get_stylesheet_directory_uri() . '/js/buttonplusminus.js', array('JQuery'), '1.0.0', true);
+    wp_register_script('buttonplusminusjs', get_stylesheet_directory_uri() . '/js/buttonplusminus.js', array('jquery'), '1.0.0', true);
+    wp_register_script('stylejs', get_stylesheet_directory_uri() . '/js/style.js', array('jquery'), '1.0.0', true);
     wp_enqueue_script('buttonplusminusjs');
-    wp_enqueue_script('buttonplusminusjs2');
+    wp_enqueue_script('stylejs');
     wp_register_style('font_syne_800', 'https://fonts.googleapis.com/css2?family=Syne:wght@800&display=swap', array(), null, 'all');
     wp_register_style('font_syne_700', 'https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap', array(), null, 'all');
     wp_register_style('font_syne_600', 'https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap', array(), null, 'all');
@@ -51,8 +51,8 @@ add_filter('wp_nav_menu_items', 'menu_with_admin', 10, 2);
 
 
 function plugin_neccassary(){
-    if(!is_plugin_active("all-in-one-forms/rednaoeasycalculationforms.php")): 
-        echo "<div class='notice notice-warning settings-error is-dismissible'><p><strong><span>This theme need the following plugin : <em><a class='' href='" . admin_url() . "/plugin-install.php?tab=plugin-information&plugin=all-in-one-forms&TB_iframe=true&width=600&height=550'>All in one forms</a></em></span></strong></div>"; 
+    if(!is_plugin_active("fluentform/fluentform.php")): 
+        echo "<div class='notice notice-warning settings-error is-dismissible'><p><strong><span>Planty Theme need the following plugin : <em><a class='' href='" . admin_url() . "/plugin-install.php?tab=plugin-information&plugin=fluentform&TB_iframe=true&width=772&height=878'>Fluent Forms</a></em></span></strong></div>"; 
     endif;
 }
 
