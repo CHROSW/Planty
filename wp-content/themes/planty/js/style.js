@@ -5,5 +5,6 @@ jQuery( document ).ready(function($){
         $('h3.wp-block-heading.has-text-color').css({'font-family': 'syne',});
         $('label').css({'font-family': 'syne',});
         $('.rnInputPrice').css({'font-family': 'syne',});
+        $('span').css({'font-family': 'syne',});
     });
 });

@@ -15,7 +15,9 @@ This is the child theme for UltraPress theme, generated with Generate Child Them
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400&display=swap');
 
-h1, h2 ,h3 ,h4 ,h5 ,h6 , p, a, .wp-block-heading.has-text-align-center.has-text-color, body, button, input, select, optgroup, textarea{
+h1, h2 ,h3 ,h4 ,h5 ,h6 , p, a, .wp-block-heading.has-text-align-center.has-text-color,
+ body, button, input, select, optgroup, textarea, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
+  a h1, a h2, a h3, a h4, a h5, a h6, label, span{
     font-family: 'Syne', sans-serif;
 }
 
@@ -246,7 +248,6 @@ min-height:401px;
 .block-team{
     height:379px;
 }
-
 
 .wp-block-columns.block-team.is-layout-flex.wp-container-12 + h2{
     padding-top:66px;
