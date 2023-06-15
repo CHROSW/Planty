@@ -7,7 +7,6 @@ $('span.qf-increase-btn').click(function(){
     var value = parseInt(input.val(), 10);
     
     value = value+1;
-    console.log(value);
    
     input.val(value);
     input.attr("defaultvalue", value);
@@ -17,8 +16,12 @@ $('span.qf-decrease-btn').click( function(){
     input=$(this).parent().parent().prev().children().find('.ff-el-form-control');
     
     var value=parseInt(input.val());
+    if(value > 0){
+        value = value-1;
+    }else{
+        value=0;
+    }
     
-    value = value-1;
     
     input.val(value);
     input.attr("defaultvalue", value);
