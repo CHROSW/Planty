@@ -53,11 +53,24 @@ div.ultrapress-default-header{
     background-color: transparent;
     transition: none;
 }
+/* custom button fluent form large and medium*/
+.ff-btn.ff-btn-submit.ff-btn-lg.ff_btn_style.wpf_has_custom_css, .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
+text-transform: none;
+}
+
+/* all input */
+.ff-el-form-control{
+    font-family: "Syne", sans-serif;
+    font-size:20px;
+    font-weight: 400;
+}
 
 /* header button order page */
 .btn.btn-primary{
     width:236px;
     height:80px;
+    text-transform: none;
+    padding-left: 61px;
 }
 
 .menu-btn-wrap a{
@@ -276,7 +289,7 @@ textarea#ff_3_description{
     position:relative;
     z-index:0;
     left:107px;
-    bottom:45px;
+    bottom:60px;
 }
 
 .wp-block-columns.is-not-stacked-on-mobile.has-background.is-layout-flex.wp-container-18{
@@ -284,12 +297,12 @@ textarea#ff_3_description{
 }
 
 /* button submit */
-#post-227 .rnField.rnField_2.rnsubmit_button button{
+#fluentform_3 .ff-el-group.ff-text-center.ff_submit_btn_wrapper button{
     font-family: "Syne", sans-serif;
     color: white;
-    width:198px;
+    min-width:198px;
     height: 55px;
-    padding-left: 45px;
+    position: initial;
     
 }
 
@@ -430,7 +443,7 @@ span.qf-increase-btn{
     font-size: 30px;
     font-weight: 700;
     line-height: 36px;
-    margin-bottom: 0px;
+    margin-bottom: 22px;
 }
 
 
@@ -458,45 +471,50 @@ span.qf-increase-btn{
 }
 
 .ff-t-container.ff-column-container.ff_columns_total_2 .ff-t-cell.ff-t-column-1 .ff-el-input--content input{
-    font-family: "Syne", sans-serif;
-    font-size: 20px;
-    font-weight:400;
     height:71px;
     width:383px;
     margin-right:10px;
 }
 
-
 /* address */
-.rnField.rnField_20.rnaddress .rnFieldAndLabel .rnFieldContainer div div span{
+
+.ff-name-address-wrapper.fluent-address .ff-el-input--label.ff-el-is-required.asterisk-right{
     position: relative;
-    bottom:72px;
     color: white;
     font-family: "Syne", sans-serif;
     font-size:20px;
     font-weight: 400;
 } 
+.ff-t-cell.ff-t-column-2 .ff-t-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
 
-.rnField.rnField_20.rnaddress .rnFieldAndLabel .rnFieldContainer div div input{
-    position:relative;
-    top:55px;
-    margin-bottom:18px;
+#ff_4_address_1_address_line_1_, #ff_4_address_1_city_, #ff_4_address_1_zip_{
+    width:383px;
+    height:71px;
+}
+
+.ff-name-address-wrapper.fluent-address .ff-t-container .ff-el-group{
+  margin-bottom: 5px;
+}
+
+.ff-name-address-wrapper.fluent-address .ff-t-container{
+    margin-bottom:15px;
 }
 
 
 /* button submit */
-#post-186 .rnField.rnField_2.rnsubmit_button button{
+#fluentform_4 .ff-btn.ff-btn-submit.ff-btn-lg.ff_btn_style.wpf_has_custom_css{
     font-family: "Syne", sans-serif;
     color: white;
-    width:198px;
     height: 55px;
     position: relative;
-    bottom:76px;
-    
-}
-
-.ladda-label svg{
-    color: transparent;
+    bottom:48px;
+    text-transform: none;
+    height:55px;
 }
 
 /* loop_end_action */
