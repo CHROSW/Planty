@@ -323,8 +323,8 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     font-weight: 800;
     position:relative;
     z-index: 10000;
-    left: 44.01px;
-    top: 89.97px;
+    left: 38px;
+    top: 86px;
     width:100px;
     color:white;
 }
@@ -335,10 +335,11 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     font-weight: 800;
     position:relative;
     z-index: 10000;
-    left: 30px;
-    top: 65.97px;
+    left: 28px;
+    top: 74px;
     max-width:110px;
     color:white;
+    line-height:24px;
 }
 
 #framboise{
@@ -347,10 +348,11 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     font-weight: 800;
     position:relative;
     z-index: 10000;
-    left: 54.01px;
-    top: 65.97px;
+    left: 48px;
+    top: 77px;
     width:80px;
     color:white;
+    line-height:24px;
 }
 
 #citron{
@@ -359,15 +361,15 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     font-weight: 800;
     position:relative;
     z-index: 10000;
-    left: 40px;
-    top: 89.97px;
+    left: 30px;
+    top: 84px;
     width:100px;
     color:white;
 }
 
 #pamplemousse + img,  #framboise + img{
     position: relative;
-    bottom:34px;
+    bottom:21px;
 }  
 
 .q-field-wrapper input{
