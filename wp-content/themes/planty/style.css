@@ -301,10 +301,6 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
 }
 
 
-.rnField.rnField_18.rndivider{
-    height:80px;
-}
-
 .description{
    padding-top:40px;  
    margin-bottom:0px; 
@@ -314,7 +310,7 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     color:white;
 }
 
-.rnField.rnField_1.rnimage .rnFieldAndLabel .rednaoLabel{
+#fraise{
     font-family: "Syne", sans-serif;
     font-size: 20px;
     font-weight: 800;
@@ -323,44 +319,48 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     left: 44.01px;
     top: 89.97px;
     width:100px;
+    color:white;
 }
 
-.rnField.rnField_3.rnimage .rnFieldAndLabel .rednaoLabel{
+#pamplemousse{
     font-family: "Syne", sans-serif;
     font-size: 20px;
     font-weight: 800;
     position:relative;
     z-index: 10000;
-    left: 44.01px;
-    top: 99.97px;
-    width:110px;
+    left: 30px;
+    top: 65.97px;
+    max-width:110px;
+    color:white;
 }
 
-.rnField.rnField_4.rnimage .rnFieldAndLabel .rednaoLabel{
+#framboise{
     font-family: "Syne", sans-serif;
     font-size: 20px;
     font-weight: 800;
     position:relative;
     z-index: 10000;
     left: 54.01px;
-    top: 99.97px;
+    top: 65.97px;
     width:80px;
+    color:white;
 }
 
-.rnField.rnField_5.rnimage .rnFieldAndLabel .rednaoLabel{
+#citron{
     font-family: "Syne", sans-serif;
     font-size: 20px;
     font-weight: 800;
     position:relative;
     z-index: 10000;
-    left: 44.01px;
+    left: 40px;
     top: 89.97px;
     width:100px;
+    color:white;
 }
 
-.rnField.rnField_1.rnimage,  .rnField.rnField_5.rnimage{
+#pamplemousse + img,  #framboise + img{
     position: relative;
-    top:12px;
+    bottom:34px;
 }  
 
 .q-field-wrapper input{
