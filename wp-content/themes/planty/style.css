@@ -416,26 +416,31 @@ span.qf-increase-btn{
     position: relative;
     bottom: 120px;
 } 
-
+/* titles second part */
 .ff-el-group.ff-custom_html p{
-    position :relative;
-    bottom: 110px;
     color:white;
     font-size: 30px;
     font-weight: 700;
+    margin-bottom: 0px;
 }
 
 
 /* vertical line */
-rn-address-field{
+.ff-t-container.ff-column-container.ff_columns_total_2 .ff-t-cell.ff-t-column-2  {
     border: 2px solid white;
     border-top:none;
     border-right: none;
     border-bottom:none;
-    margin-left:52px;
-    padding-left:34px;
+    margin-left:0px;
+    padding-left:44px;
     height: 447px;
 }
+
+.ff-t-container.ff-column-container.ff_columns_total_2{
+    position: relative;
+    bottom:110px;
+}  
+
 
 /* Last Name */
 .rncolsm2 + div span{
