@@ -442,48 +442,21 @@ span.qf-increase-btn{
 }  
 
 
-/* Last Name */
-.rncolsm2 + div span{
-    position: relative;
-    bottom:55px;
-    right:190px;
+/* left column label  */
+.ff-t-cell.ff-t-column-1 .ff-el-input--label.ff-el-is-required.asterisk-right label{
     color:white;
     font-family: "Syne", sans-serif;
     font-size: 20px;
     font-weight:400;
 }
 
-.rncolsm2 + div input{
-    position: relative;
-    top: 57px;
-    right:190px;
-}
-
-/* First Name */
-.rncolsm2 div + span{
-    position: relative;
-    top:83px;
-    color:white;
+.ff-t-container.ff-column-container.ff_columns_total_2 .ff-t-cell.ff-t-column-1 .ff-el-input--content input{
     font-family: "Syne", sans-serif;
     font-size: 20px;
     font-weight:400;
-}
-
-.rncolsm2 div input{
-    position: relative;
-    top:196px;
-}
-
-/* e-mail */
-.rnField.rnField_22.rnemail{
-    position: relative;
-    bottom: 118px;
-}
-
-.rnField.rnField_22.rnemail div div label{
-    font-family: "Syne", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
+    height:71px;
+    width:383px;
+    margin-right:10px;
 }
 
 
