@@ -313,6 +313,11 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     color:white;
 }
 
+.fruit{
+    width:193px;
+    height:129px;
+}
+
 #fraise{
     font-family: "Syne", sans-serif;
     font-size: 20px;
@@ -321,7 +326,6 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     z-index: 10000;
     left: 38px;
     top: 86px;
-    width:100px;
     color:white;
 }
 
@@ -331,9 +335,8 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     font-weight: 800;
     position:relative;
     z-index: 10000;
-    left: 28px;
-    top: 74px;
-    max-width:110px;
+    left: 25px;
+    top: 74px; 
     color:white;
     line-height:24px;
 }
@@ -345,8 +348,7 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     position:relative;
     z-index: 10000;
     left: 48px;
-    top: 77px;
-    width:80px;
+    top: 77px; 
     color:white;
     line-height:24px;
 }
@@ -359,27 +361,33 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     z-index: 10000;
     left: 30px;
     top: 84px;
-    width:100px;
     color:white;
+}
+
+#fraise + img, #citron + img{
+    max-width:193px;
+    height:129px;
 }
 
 #pamplemousse + img,  #framboise + img{
     position: relative;
     bottom:21px;
+    max-width:193px;
+    height:129px;
 }  
 
 /* buttons plus and minus */
 .ff-el-group.ff-custom_html div.q-field-wrapper{
     position: relative;
     left:51px;
-    bottom:77px;
+    bottom:27px;
 }
 
 /* buttons OK */
 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
     position:relative;
-    left:52px;
-    bottom:125px;
+    left:36px;
+    bottom:76px;
     min-width:100px;
     max-width:100px;
     height:56px;
@@ -388,7 +396,7 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
 /* inputs number */
 .ff-el-input--content input.ff-el-form-control.ff_numeric{
     position: relative;
-    bottom:8px;
+    top:42px;
     height: 56px;
     min-width:51px;
     max-width:51px;
@@ -414,31 +422,30 @@ span.qf-increase-btn{
 /* divider */
 .ff-el-group.ff-el-section-break.ff_right{
     position: relative;
-    bottom: 120px;
+    bottom: 71px;
 } 
 /* titles second part */
 .ff-el-group.ff-custom_html p{
     color:white;
     font-size: 30px;
     font-weight: 700;
+    line-height: 36px;
     margin-bottom: 0px;
 }
 
 
 /* vertical line */
-.ff-t-container.ff-column-container.ff_columns_total_2 .ff-t-cell.ff-t-column-2  {
+.ff-t-container.ff-column-container.ff_columns_total_2 .ff-t-cell.ff-t-column-1  {
     border: 2px solid white;
     border-top:none;
-    border-right: none;
+    border-left: none;
     border-bottom:none;
-    margin-left:0px;
-    padding-left:44px;
     height: 447px;
 }
 
 .ff-t-container.ff-column-container.ff_columns_total_2{
     position: relative;
-    bottom:110px;
+    bottom:65px;
 }  
 
 
