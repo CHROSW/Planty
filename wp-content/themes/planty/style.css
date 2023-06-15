@@ -412,9 +412,19 @@ span.qf-increase-btn{
 }
 
 /* divider */
-.rnField.rnField_17.rndivider{
-    margin-bottom: 55px;
+.ff-el-group.ff-el-section-break.ff_right{
+    position: relative;
+    bottom: 120px;
 } 
+
+.ff-el-group.ff-custom_html p{
+    position :relative;
+    bottom: 110px;
+    color:white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 
 /* vertical line */
 rn-address-field{
