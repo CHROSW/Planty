@@ -755,7 +755,154 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .wp-block-columns.is-not-stacked-on-mobile.block-form-contact.has-background.is-layout-flex.wp-container-18{
         padding-bottom: 0px;
     }
+
+    /* order page */
+    #title-order{
+        text-align: center !important;
+    }
+
+    .ff-t-container.ff-column-container.ff_columns_total_4, .ff-t-container.ff-column-container.ff_columns_total_2{
+        display:flex;
+        flex-direction:column !important;
+        align-items: center;
+    }  
+
+    .ff-t-cell.ff-t-column-1, .ff-t-cell.ff-t-column-2, .ff-t-cell.ff-t-column-3, .ff-t-cell.ff-t-column-4{
+        
+        display:flex;
+        flex-basis:0px !important;
+        align-items: center !important;
+    }
+
+    .ff-t-container.ff-column-container.ff_columns_total_2 .ff-t-cell.ff-t-column-1{
+        border:none;
+    }
+
+    .frm-fluent-form .ff-t-cell{
+        display:flex;
+        align-items: center;
+    }
+
+    .ff-t-cell.ff-t-column-2 .ff-t-container{
+        margin-left:0px;
+    }
+
+    #fraise{
+        position: relative;
+        top:185px;
+    }
+
+    #fraise + img{
+        position: relative;
+        top: 100px; 
+    }
+
+
+    input#ff_4_numeric-field{
+        position: relative;
+        top: -312px;
+        right:72px;
+    }
+
+    .ff-t-cell.ff-t-column-1 .ff-el-group.ff-custom_html .q-field-wrapper{
+        position: relative;
+        bottom: 381px;
+        left:29px;
+    }
+
+    .ff-t-cell.ff-t-column-1 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
+        position: relative;
+        bottom: 430px;
+        left:48px;
+    }
+
+    #ff_4_numeric-field_1{
+        position: relative;
+        top: -206px;
+        right:72px;
+    }
+
+    #pamplemousse{
+        position: relative;
+        top: 340px;
+    }
+
+    #pamplemousse + img{
+        position: relative;
+        top: 250px;
+    }
+
+    .ff-t-cell.ff-t-column-2 .ff-el-group.ff-custom_html .q-field-wrapper{
+        position: relative;
+        bottom: 275px;
+        left:29px;
+    }
+
+    .ff-t-cell.ff-t-column-2 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
+        position: relative;
+        bottom: 325px;
+        left:48px;
+    }
+
+
+    #ff_4_numeric-field_2{
+        position: relative;
+        top: -72px;
+        right:72px;
+    }
+
+    #framboise{
+        position: relative;
+        top: 540px;
+    }
+
+    #framboise + img{
+        position: relative;
+        top: 450px;
+    }
+
+    .ff-t-cell.ff-t-column-3 .ff-el-group.ff-custom_html .q-field-wrapper{
+        position: relative;
+        bottom: 141px;
+        left:29px;
+    }
+
+    .ff-t-cell.ff-t-column-3 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
+        position: relative;
+        bottom: 190px;
+        left:48px;
+    }
+
+
+    #ff_4_numeric-field_3{
+        position: relative;
+        right:72px;
+    }
+
+    #citron{
+        position: relative;
+        top: 735px; 
+    }
+
+    #citron + img{
+        position: relative;
+        top: 650px; 
+    }
+
+
+    .ff-t-cell.ff-t-column-4 .ff-el-group.ff-custom_html .q-field-wrapper{
+        position: relative;
+        left:29px;
+    }
+
+    .ff-t-cell.ff-t-column-4 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
+        position: relative;
+        left:47px;
+    }
+
+
 }
+
 
 
 @media(max-width:393px){
