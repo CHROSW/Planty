@@ -807,7 +807,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .ff-t-cell.ff-t-column-1 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
         bottom: 381px;
-        left:29px;
+        left:28px;
     }
 
     .ff-t-cell.ff-t-column-1 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
@@ -835,7 +835,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .ff-t-cell.ff-t-column-2 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
         bottom: 275px;
-        left:29px;
+        left:28px;
     }
 
     .ff-t-cell.ff-t-column-2 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
@@ -864,7 +864,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .ff-t-cell.ff-t-column-3 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
         bottom: 141px;
-        left:29px;
+        left:28px;
     }
 
     .ff-t-cell.ff-t-column-3 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
@@ -892,7 +892,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
 
     .ff-t-cell.ff-t-column-4 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        left:29px;
+        left:28px;
     }
 
     .ff-t-cell.ff-t-column-4 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
@@ -902,6 +902,61 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
 
 
 }
+
+@media(max-width:767px){
+    .ff-t-cell.ff-t-column-1, .ff-t-cell.ff-t-column-2, .ff-t-cell.ff-t-column-3, .ff-t-cell.ff-t-column-4{
+        display:contents;
+    }
+
+    #fraise{
+        position: relative;
+        top:135px;
+    }
+
+    #fraise + img{
+        position: relative;
+        top: 50px; 
+    }
+
+    #pamplemousse{
+        position: relative;
+        top: 290px;
+    }
+
+    #pamplemousse + img{
+        position: relative;
+        top: 200px;
+    }
+
+    #framboise{
+        position: relative;
+        top: 490px;
+    }
+
+    #framboise + img{
+        position: relative;
+        top: 400px;
+    }
+
+    #citron{
+        position: relative;
+        top: 685px; 
+    }
+
+    #citron + img{
+        position: relative;
+        top: 600px; 
+    }
+
+    .ff-t-cell.ff-t-column-2 .ff-t-container{
+        display:inline;
+    }
+
+    .ff-name-address-wrapper.fluent-address .ff-t-container .ff-el-group{
+        padding-bottom: 25px;
+    }
+
+}    
 
 
 
