@@ -742,8 +742,9 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .wp-block-columns.is-not-stacked-on-mobile.block-form-contact.has-background.is-layout-flex.wp-container-18 .wp-block-column.is-vertically-aligned-bottom.is-layout-flow{
         order:2;
         position: relative;
-        bottom: 250px;
-
+        bottom: 200px;
+        width:200px;
+        right: 98%;
     }
 
     .wp-block-columns.is-not-stacked-on-mobile.block-form-contact.has-background.is-layout-flex.wp-container-18 .wp-block-column.is-vertically-aligned-top.is-layout-flow{
