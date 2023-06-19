@@ -706,6 +706,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .wp-image-26{
         height:219px;
         float:right;
+        width:200px;
     }
 
     /* contact page */
@@ -726,7 +727,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .wp-block-columns.block-team.is-layout-flex.wp-container-12{
         display: flex;
         flex-direction: column;
-        height: 1300px;
+        height: 1400px;
         justify-content: center;
         align-items: center;
     }
@@ -791,80 +792,89 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
         margin-left:0px;
     }
 
+    #fraise{
+        position: relative;
+        top:185px;
+    }
+
+    #fraise + img{
+        position: relative;
+        top: 100px; 
+    }
 
 
     input#ff_4_numeric-field{
         position: relative;
-        top: -414px;
+        top: -312px;
         right:72px;
     }
 
     .ff-t-cell.ff-t-column-1 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 483px;
+        bottom: 381px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-1 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 533px;
+        bottom: 430px;
         left:48px;
     }
 
     #ff_4_numeric-field_1{
         position: relative;
-        top: -298px;
+        top: -206px;
         right:72px;
     }
 
     #pamplemousse{
         position: relative;
-        top: 140px;
+        top: 340px;
     }
 
     #pamplemousse + img{
         position: relative;
-        top: 50px;
+        top: 250px;
     }
 
     .ff-t-cell.ff-t-column-2 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 367px;
+        bottom: 275px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-2 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 416px;
+        bottom: 325px;
         left:48px;
     }
 
 
     #ff_4_numeric-field_2{
         position: relative;
-        top: -182px;
+        top: -72px;
         right:72px;
     }
 
     #framboise{
         position: relative;
-        top: 215px;
+        top: 540px;
     }
 
     #framboise + img{
         position: relative;
-        top: 120px;
+        top: 450px;
     }
 
     .ff-t-cell.ff-t-column-3 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 251px;
+        bottom: 141px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-3 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 300px;
+        bottom: 190px;
         left:48px;
     }
 
@@ -872,30 +882,27 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     #ff_4_numeric-field_3{
         position: relative;
         right:72px;
-        top: -67px;
     }
 
     #citron{
         position: relative;
-        top: 295px; 
+        top: 735px; 
     }
 
     #citron + img{
         position: relative;
-        top: 210px; 
+        top: 650px; 
     }
 
 
     .ff-t-cell.ff-t-column-4 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
         left:28px;
-        bottom:136px;
     }
 
     .ff-t-cell.ff-t-column-4 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
         left:47px;
-        bottom: 185px;
     }
 
 
