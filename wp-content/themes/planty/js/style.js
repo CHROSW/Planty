@@ -8,5 +8,6 @@ jQuery( document ).ready(function($){
         $('span').css({'font-family': "'Syne', sans-serif",});
         $('.ff-name-address-wrapper.fluent-address').children().children().children().eq(1).css({'position':'relative','top':'136px',});
         $('.ff-name-address-wrapper.fluent-address').children().children().eq(1).css({'position':'relative','bottom':'138px',});
+        $('.ff-t-container.ff-column-container.ff_columns_total_4').eq(1).children().css({'height':'90px',});    
     });
 });
