@@ -706,7 +706,6 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .wp-image-26{
         height:219px;
         float:right;
-        width:200px;
     }
 
     /* contact page */
@@ -727,7 +726,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .wp-block-columns.block-team.is-layout-flex.wp-container-12{
         display: flex;
         flex-direction: column;
-        height: 1400px;
+        height: 1300px;
         justify-content: center;
         align-items: center;
     }
