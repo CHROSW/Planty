@@ -792,89 +792,80 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
         margin-left:0px;
     }
 
-    #fraise{
-        position: relative;
-        top:185px;
-    }
-
-    #fraise + img{
-        position: relative;
-        top: 100px; 
-    }
 
 
     input#ff_4_numeric-field{
         position: relative;
-        top: -312px;
+        top: -414px;
         right:72px;
     }
 
     .ff-t-cell.ff-t-column-1 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 381px;
+        bottom: 483px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-1 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 430px;
+        bottom: 533px;
         left:48px;
     }
 
     #ff_4_numeric-field_1{
         position: relative;
-        top: -206px;
+        top: -298px;
         right:72px;
     }
 
     #pamplemousse{
         position: relative;
-        top: 340px;
+        top: 140px;
     }
 
     #pamplemousse + img{
         position: relative;
-        top: 250px;
+        top: 50px;
     }
 
     .ff-t-cell.ff-t-column-2 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 275px;
+        bottom: 367px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-2 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 325px;
+        bottom: 416px;
         left:48px;
     }
 
 
     #ff_4_numeric-field_2{
         position: relative;
-        top: -72px;
+        top: -182px;
         right:72px;
     }
 
     #framboise{
         position: relative;
-        top: 540px;
+        top: 215px;
     }
 
     #framboise + img{
         position: relative;
-        top: 450px;
+        top: 120px;
     }
 
     .ff-t-cell.ff-t-column-3 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 141px;
+        bottom: 251px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-3 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 190px;
+        bottom: 300px;
         left:48px;
     }
 
@@ -882,27 +873,30 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     #ff_4_numeric-field_3{
         position: relative;
         right:72px;
+        top: -67px;
     }
 
     #citron{
         position: relative;
-        top: 735px; 
+        top: 295px; 
     }
 
     #citron + img{
         position: relative;
-        top: 650px; 
+        top: 210px; 
     }
 
 
     .ff-t-cell.ff-t-column-4 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
         left:28px;
+        bottom:136px;
     }
 
     .ff-t-cell.ff-t-column-4 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
         left:47px;
+        bottom: 185px;
     }
 
 
