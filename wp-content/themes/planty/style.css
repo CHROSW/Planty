@@ -162,9 +162,9 @@ h3.wp-block-heading.has-text-align-center{
 }
 
 .wp-block-columns.bottleSheet{
-    border-bottom: 15px solid #E3D9D0;
     border-bottom-right-radius: 25% 5%;
     border-bottom-left-radius: 25% 5%;
+    box-shadow: 0px 15px #E3D9D0;
 }
 
 .wp-block-buttons{
