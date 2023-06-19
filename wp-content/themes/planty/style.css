@@ -198,16 +198,14 @@ a.wp-block-button__link.has-background.has-text-align-center.wp-element-button{
 .wp-block-image.leftSheet{
     position:absolute;
     z-index: 10;
-    width:30%;
-    right:48%;
-    left:23%;
+    width:25.5%;
+    left:25%;
 }
 
 .wp-block-image.rightSheet{
     position:absolute;
     z-index: 10;
     width:29%;
-    left:47%;
     right:24%;
 }
 
@@ -704,6 +702,12 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
         align-items: center !important;
         max-width:196px;
     }
+
+    .wp-image-26{
+        height:219px;
+        float:right;
+    }
+
     /* contact page */
     .wp-block-columns.banner-contact.has-background.is-layout-flex.wp-container-6{
         display:flex;
@@ -729,12 +733,6 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
 
     .wp-block-columns:not(.is-not-stacked-on-mobile) > .wp-block-column{
         flex-basis: 0px !important;
-    }
-
-    .wp-image-26{
-        width:191px;
-        height:219px;
-        float:right;
     }
 
     .wp-block-columns.is-not-stacked-on-mobile.block-form-contact.has-background.is-layout-flex.wp-container-18 .wp-block-column.is-layout-flow{
