@@ -1,5 +1,6 @@
 jQuery( document ).ready(function($){
     $(document).ready(function(){
+        $('.container-fluid').css({'padding-left': '0px', 'padding-right': '0px',});
         $('h2.wp-block-heading.has-text-align-center').css({'font-family': "'Syne', sans-serif",});
         $('h3.wp-block-heading.has-text-align-center').css({'font-family': "'Syne', sans-serif",});
         $('h3.wp-block-heading.has-text-color').css({'font-family': "'Syne', sans-serif",});
