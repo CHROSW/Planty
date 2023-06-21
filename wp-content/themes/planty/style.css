@@ -695,7 +695,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     }
 }
 
-@media(max-width:1000px){
+@media(max-width:1023px){
     /* home page */
     .wp-block-columns.is-not-stacked-on-mobile.has-background.is-layout-flex.wp-container-9, 
     .wp-block-columns.is-not-stacked-on-mobile.has-background.is-layout-flex.wp-container-14{
@@ -811,89 +811,93 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
         margin-left:0px;
     }
 
+    div[data-name='ff_cn_id_2']{
+        height:480px;
+    }  
+
     #fraise{
         position: relative;
-        top:185px;
+        top:83px;
     }
 
     #fraise + img{
         position: relative;
-        top: 100px; 
+        top: 0px; 
     }
 
 
     input#ff_4_numeric-field{
         position: relative;
-        top: -312px;
+        top: -412px;
         right:72px;
     }
 
     .ff-t-cell.ff-t-column-1 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 381px;
+        bottom: 481px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-1 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 430px;
+        bottom: 530px;
         left:48px;
     }
 
     #ff_4_numeric-field_1{
         position: relative;
-        top: -206px;
+        top: -386px;
         right:72px;
     }
 
     #pamplemousse{
         position: relative;
-        top: 340px;
+        top: 165px;
     }
 
     #pamplemousse + img{
         position: relative;
-        top: 250px;
+        top: 70px;
     }
 
     .ff-t-cell.ff-t-column-2 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 275px;
+        bottom: 455px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-2 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 325px;
+        bottom: 504px;
         left:48px;
     }
 
 
     #ff_4_numeric-field_2{
         position: relative;
-        top: -72px;
+        top: -361px;
         right:72px;
     }
 
     #framboise{
         position: relative;
-        top: 540px;
+        top: 255px;
     }
 
     #framboise + img{
         position: relative;
-        top: 450px;
+        top: 160px;
     }
 
     .ff-t-cell.ff-t-column-3 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
-        bottom: 141px;
+        bottom: 430px;
         left:28px;
     }
 
     .ff-t-cell.ff-t-column-3 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
-        bottom: 190px;
+        bottom: 479px;
         left:48px;
     }
 
@@ -901,76 +905,51 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     #ff_4_numeric-field_3{
         position: relative;
         right:72px;
+        top: -337px;
     }
 
     #citron{
         position: relative;
-        top: 735px; 
+        top: 352px; 
     }
 
     #citron + img{
         position: relative;
-        top: 650px; 
+        top: 270px; 
     }
 
 
     .ff-t-cell.ff-t-column-4 .ff-el-group.ff-custom_html .q-field-wrapper{
         position: relative;
         left:28px;
+        bottom: 406px;
     }
 
     .ff-t-cell.ff-t-column-4 .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
         position: relative;
         left:47px;
+        bottom: 455px;
     }
 
+    .ff-t-cell.ff-t-column-2 .ff-el-group.ff-custom_html p{
+        margin-left: 0px;
+    }
 
 }
 
 @media(max-width:767px){
+
+    header.site-header .ultrapress-default-header{
+        padding: 0px 0px 0px 30px;
+    }
+
+    .ff-t-container.ff-column-container.ff_columns_total_4{
+        padding-bottom: 43px;
+    }
+
     .ff-t-cell.ff-t-column-1, .ff-t-cell.ff-t-column-2, .ff-t-cell.ff-t-column-3, .ff-t-cell.ff-t-column-4{
         display:contents;
-    }
-
-    #fraise{
-        position: relative;
-        top:135px;
-    }
-
-    #fraise + img{
-        position: relative;
-        top: 50px; 
-    }
-
-    #pamplemousse{
-        position: relative;
-        top: 290px;
-    }
-
-    #pamplemousse + img{
-        position: relative;
-        top: 200px;
-    }
-
-    #framboise{
-        position: relative;
-        top: 490px;
-    }
-
-    #framboise + img{
-        position: relative;
-        top: 400px;
-    }
-
-    #citron{
-        position: relative;
-        top: 685px; 
-    }
-
-    #citron + img{
-        position: relative;
-        top: 600px; 
-    }
+    }  
 
     .ff-t-cell.ff-t-column-2 .ff-t-container{
         display:inline;
