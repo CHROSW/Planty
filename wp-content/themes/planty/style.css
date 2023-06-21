@@ -468,6 +468,10 @@ span.qf-increase-btn{
     margin-bottom: 22px;
 }
 
+.ff-t-cell.ff-t-column-2 .ff-el-group.ff-custom_html p{
+    margin-left: 44px;
+}
+
 
 /* vertical line */
 .ff-t-container.ff-column-container.ff_columns_total_2 .ff-t-cell.ff-t-column-1  {
@@ -514,7 +518,7 @@ span.qf-increase-btn{
     margin-left: 40px;
 }
 
-.ff-name-address-wrapper.fluent-address div div div:first{
+.ff-name-address-wrapper.fluent-address div div div.ff-t-cell:first{
     position:relative;
     top:136px;
 }
