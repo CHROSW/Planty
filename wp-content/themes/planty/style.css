@@ -518,9 +518,13 @@ span.qf-increase-btn{
     margin-left: 40px;
 }
 
+.ff-name-address-wrapper.fluent-address div.ff-el-input--content div.ff-t-container div.ff-t-cell:first-child{
+    margin-bottom:100px;
+}
+
 .ff-name-address-wrapper.fluent-address div.ff-el-input--content div.ff-t-container div.ff-t-cell:last-of-type{
     position:relative;
-    top:136px;
+    top:36px;
 }
 
 .ff-name-address-wrapper.fluent-address div.ff-el-input--content div.ff-t-container:last-child{
