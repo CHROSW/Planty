@@ -17,12 +17,17 @@ This is the child theme for UltraPress theme, generated with Generate Child Them
 
 h1, h2 ,h3 ,h4 ,h5 ,h6 , p, a, .wp-block-heading.has-text-align-center.has-text-color,
  body, button, input, select, optgroup, textarea, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
-  a h1, a h2, a h3, a h4, a h5, a h6, label, span, .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css, #fluentform_4_success, #fluentform_4_errors{
+  a h1, a h2, a h3, a h4, a h5, a h6, label, span,
+   .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css,
+    #fluentform_4_success, #fluentform_4_errors,
+     h2.wp-block-heading.has-text-align-center,
+      h3.wp-block-heading.has-text-align-center,
+       h3.wp-block-heading.has-text-color{
     font-family: 'Syne', sans-serif;
 }
 
 /* all page */
-.container-fluid{
+.site-main.no-sidebar div.container-fluid, .ultrapress-default-header div.container-fluid{
     padding-left:0px;
     padding-right:0px;
 }
@@ -215,11 +220,11 @@ a.wp-block-button__link.has-background.has-text-align-center.wp-element-button{
 }
 
 .wp-block-image.bottle img{
-min-height:618px;
+    min-height:618px;
 }
 
 .wp-block-image.leftSheet img, .wp-block-image.rightSheet img{
-min-height:401px;
+    min-height:401px;
 }
 
 .wp-block-image.leftSheet, .wp-block-image.rightSheet{
@@ -507,6 +512,16 @@ span.qf-increase-btn{
     flex-direction: row;
     flex-wrap: wrap;
     margin-left: 40px;
+}
+
+.ff-name-address-wrapper.fluent-address div div div:first{
+    position:relative;
+    top:136px;
+}
+
+.ff-name-address-wrapper.fluent-address div div:first{
+    position:relative;
+    bottom:138px;
 }
 
 #ff_4_address_1_address_line_1_, #ff_4_address_1_city_, #ff_4_address_1_zip_{
