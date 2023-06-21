@@ -518,14 +518,14 @@ span.qf-increase-btn{
     margin-left: 40px;
 }
 
-.ff-name-address-wrapper.fluent-address div div div.ff-t-cell:first{
+.ff-name-address-wrapper.fluent-address div.ff-el-input--content div.ff-t-container div.ff-t-cell:last-of-type{
     position:relative;
     top:136px;
 }
 
-.ff-name-address-wrapper.fluent-address div div:first{
+.ff-name-address-wrapper.fluent-address div.ff-el-input--content div.ff-t-container:last-child{
     position:relative;
-    bottom:138px;
+    bottom:274px;
 }
 
 #ff_4_address_1_address_line_1_, #ff_4_address_1_city_, #ff_4_address_1_zip_{
