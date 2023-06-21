@@ -943,6 +943,10 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
         padding: 0px 0px 0px 30px;
     }
 
+    div[data-name='ff_cn_id_2']{
+        height:440px;
+    } 
+
     .ff-t-container.ff-column-container.ff_columns_total_4{
         padding-bottom: 43px;
     }
