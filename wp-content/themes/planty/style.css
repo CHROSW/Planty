@@ -827,7 +827,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     }
 
     div[data-name='ff_cn_id_2']{
-        height:480px;
+        height:440px;
     }  
 
     #fraise{
@@ -950,6 +950,10 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
         margin-left: 0px;
     }
 
+    div[data-name='ff_cn_id_3']{
+        height:959px;
+    } 
+
 }
 
 @media(max-width:767px){
@@ -959,7 +963,7 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     }
 
     div[data-name='ff_cn_id_2']{
-        height:440px;
+        height:390px;
     } 
 
     .ff-t-container.ff-column-container.ff_columns_total_4{
@@ -978,6 +982,9 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
         padding-bottom: 25px;
     }
 
+    div[data-name='ff_cn_id_3']{
+        height:976px;
+    } 
 }    
 
 
