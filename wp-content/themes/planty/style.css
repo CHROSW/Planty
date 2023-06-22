@@ -26,6 +26,10 @@ h1, h2 ,h3 ,h4 ,h5 ,h6 , p, a, .wp-block-heading.has-text-align-center.has-text-
     font-family: 'Syne', sans-serif;
 }
 
+.fluentform .ff-el-form-control, .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
+border-radius: 7px;
+}
+
 /* all page */
 .site-main.no-sidebar div.container-fluid, .ultrapress-default-header div.container-fluid{
     padding-left:0px;
@@ -325,6 +329,7 @@ textarea#ff_3_description{
     min-width:198px;
     height: 55px;
     position: initial;
+    border-radius: 5px;
     
 }
 
@@ -567,6 +572,7 @@ div[data-name='ff_cn_id_3']{
     text-transform: none;
     height:55px;
     margin-top:43px;
+    border-radius: 5px;
 }
 
 /* loop_end_action */
@@ -681,12 +687,12 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
 
 .qf-decrease-btn{
     order:2;
-    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 7px;
 }
 
 .qf-increase-btn{
     order:3;
-    border-top-right-radius: 5px;
+    border-top-right-radius: 7px;
 }
 
 .qf-decrease-btn:hover, .qf-increase-btn:hover{
