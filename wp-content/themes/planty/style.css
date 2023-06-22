@@ -14,6 +14,9 @@ This is the child theme for UltraPress theme, generated with Generate Child Them
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* all page */
 
 h1, h2 ,h3 ,h4 ,h5 ,h6 , p, a, .wp-block-heading.has-text-align-center.has-text-color,
  body, button, input, select, optgroup, textarea, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
@@ -28,9 +31,14 @@ h1, h2 ,h3 ,h4 ,h5 ,h6 , p, a, .wp-block-heading.has-text-align-center.has-text-
 
 .fluentform .ff-el-form-control, .ff-btn.ff-btn-submit.ff-btn-md.ff_btn_style.wpf_has_custom_css{
 border-radius: 7px;
+font-size: 20px;
 }
 
-/* all page */
+.fluentform .ff-el-input--label label{
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .site-main.no-sidebar div.container-fluid, .ultrapress-default-header div.container-fluid{
     padding-left:0px;
     padding-right:0px;
@@ -442,7 +450,10 @@ h1.wp-block-heading.has-text-align-center.order-title.has-white-color.has-text-c
     max-width:51px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
-    font-family: "Syne", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
 }
 
 span.qf-decrease-btn{
@@ -474,6 +485,7 @@ div[data-name='ff_cn_id_2']{
 .fluentform .ff-el-is-error .text-danger{
     margin-top: 0px;
     position: absolute;
+    font-family: "Syne",sans-serif;
 }
 
 /* titles second part */
