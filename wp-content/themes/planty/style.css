@@ -462,6 +462,7 @@ div[data-name='ff_cn_id_2']{
 .ff-el-group.ff-el-section-break.ff_right{
     position: relative;
     bottom: 26px;
+    width:880px;
 } 
 
 /* error message */
