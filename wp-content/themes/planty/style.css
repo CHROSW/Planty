@@ -807,6 +807,10 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
         text-align: center !important;
     }
 
+    .ff-el-group.ff-el-section-break.ff_right{
+        width:100%;
+    }
+
     .ff-t-container.ff-column-container.ff_columns_total_4, .ff-t-container.ff-column-container.ff_columns_total_2{
         display:flex;
         flex-direction:column !important;
