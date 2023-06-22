@@ -206,7 +206,7 @@ a.wp-block-button__link.has-background.has-text-align-center.wp-element-button{
 
 .wp-block-image.bottle{
     position:absolute;
-    width:26%;
+    width:25.5%;
     left:37%;
     right:37%;
     z-index: 100;
@@ -216,7 +216,7 @@ a.wp-block-button__link.has-background.has-text-align-center.wp-element-button{
     position:absolute;
     z-index: 10;
     width:25.5%;
-    left:25%;
+    left:24.8%;
 }
 
 .wp-block-image.rightSheet{
@@ -760,7 +760,6 @@ div.rnField.rnField_35.rnnumeric div.rnFieldAndLabel div.rnFieldContainer div in
     .wp-image-26{
         height:219px;
         float:right;
-        width:200px;
     }
 
     /* contact page */
