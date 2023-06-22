@@ -6,7 +6,15 @@ jQuery(document).ready(function ($) {
        } else {
           $('button[name="custom_submit_button-4_18"]').removeAttr('disabled');
        }
- 
+       
+       $('.ff-el-form-control.ff_numeric').on('keyup', function(){
+         if (($('#ff_4_numeric-field').val() == 0) && ($('#ff_4_numeric-field_1').val() == 0) && ($('#ff_4_numeric-field_2').val() == 0) && ($('#ff_4_numeric-field_3').val() == 0)) {
+            $('button[name="custom_submit_button-4_18"]').attr('disabled', 'disabled');
+         } else {
+            $('button[name="custom_submit_button-4_18"]').removeAttr('disabled');
+         }
+       });
+
        $('span.qf-increase-btn').click(function () {
           input = $(this).parent().parent().prev().children().find('.ff-el-form-control');
           var value = parseInt(input.val(), 10);
